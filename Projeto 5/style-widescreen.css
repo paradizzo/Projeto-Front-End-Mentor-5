@@ -1,0 +1,26 @@
+body {
+    position: relative;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25ch;
+}
+.box-top {
+    max-width: 70ch;
+}
+
+.big-box {
+    display: flex;
+}
+.box-middle {
+    border-radius:0 0 0 10px ;
+    width: 40ch;
+   
+}
+.box-bottom {
+    width: 30ch;
+    border-radius: 0px 0px 10px 0px;
+}

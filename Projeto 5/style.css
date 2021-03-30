@@ -1,0 +1,122 @@
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background: var(--LightGray);
+    max-height: 100%;
+    max-width: 100%;
+}
+.container {
+    margin: 3ch;
+    margin-top: 6ch;
+    margin-bottom: 6ch;
+    max-width: 100%;
+    max-height: 100%;
+}
+.box-top {
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+    text-align: left
+}
+.box-middle {
+    background: hsl(179, 62%, 38%);
+    text-align: left;
+
+}
+.box-bottom {
+    background: var(--Cyan);
+    border-radius: 0 0 10px 10px;
+}
+.textbox {
+    margin: 3ch;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.top-title {
+    color: var(--Cyan);
+    margin-bottom: 2ch;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.top-sub-title {
+    color: var(--BrightYellow);
+    font-weight: 600;
+    margin-bottom: 2ch ;
+}
+.top-description {
+    color: var(--GrayishBlue);
+    line-height: 3.5ch;
+    font-size: 14px;
+    margin-bottom: 4ch;
+}
+.container-middle {
+    margin: 3ch;
+    margin-top: 0;
+    margin-bottom: 5ch;
+    display: inline-block;
+}
+.midle-title {
+    margin-top: 2ch;
+    color: #fff;
+    line-height: 5ch;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 2ch;
+}
+.price {
+    font-size: 40px;
+    font-weight: 400;
+
+}
+.per-month {
+    margin-left: 1ch;
+    font-size: 14px;
+    color: hsla(203, 44%, 93%, 0.781);
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.button {
+    position: relative;
+    left: .5ch;
+    top: 2ch;
+    padding: 12px 100px;
+    background: var(--BrightYellow);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.list-box {
+    list-style-type: none;
+    margin: 1.5ch;
+    padding-bottom: 2ch;
+}
+.bottom-title{
+    margin: 3ch;
+    margin-top: 0;
+    padding-top: 2ch;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.list-items {
+    color: hsla(203, 44%, 93%, 0.74);
+    font-size: 13px;
+    padding: .5ch;
+    font-weight:lighter;
+    margin-left: 1.5ch;
+
+}
